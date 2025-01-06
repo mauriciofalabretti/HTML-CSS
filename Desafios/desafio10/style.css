@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url('pacote-projeto-d010/fontes/idroid.otf');
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(132,224,173,255);
+    text-align: justify;
+}
+
+header {
+    font-family: sans-serif;;
+    background-image: linear-gradient(to top, #1a5c38, #3bd481);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    padding: 15px 15px;
+    margin-top: -10px;
+    margin-right: -8px;
+    margin-left: -8px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.500), -3px 0px 3px rgba(0, 0, 0, 0.500);
+    padding: 10px 15px;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+    min-width: 280px;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+    padding: 1px 0px;
+    margin-top: 15px;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family: "idroid";
+    color: #256543;
+    background-image: linear-gradient(to right, #bae7ce, white);
+}
+
+h3 {
+    background-color: #2fa865;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #235c40;
+    font-weight: bold;
+}
+
+nav {
+    text-align: left;
+    padding-top: 10px;
+}
+
+strong {
+    color: #235c40;
+}
+
+strong.footer_autor {
+    color: white;
+}
+
+ul {
+    text-decoration: underline;
+}
+
+.nav_links {
+    color: white;
+    padding-inline: 5px;
+}
+
+li::marker {
+    content: "✔ ";
+}
+
+div.curiosidades {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+div.column {
+    float: left;
+    width: 50%;
+    text-decoration: underline;
+}
+
+section.extras {
+    background-color: #c4ebd6;
+    border-radius: 15px;
+}
+
+aside.video {
+    background-color: #1a5c38;
+    text-align: center;
+    padding: 15px 15px;
+    margin: 0px -15px;
+}
+
+.main_article_h1 {
+        font-family: "idroid";
+        font-size: 1.9em;
+        color: #1a5c38;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}

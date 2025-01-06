@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(132,224,173,255);
+    width: 100%;
+    max-width: 893px;
+}
+
+header {
+    background-image: linear-gradient(to top, rgba(26,92,56,255), rgba(58,210,127,255));
+    color: white;
+    text-align: center;
+    width: 50%;
+    padding: 10px 450px;
+    margin: -8px -8px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.349);
+}
+
+header > div {
+    width: 491px;
+}
+
+nav {
+    text-align: left;
+    font-weight: bold;
+    margin: 25px 0px -5px -440px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    margin: 8px 180px 25px;
+    padding: 10px 20px;
+    text-align: justify;
+    text-indent: 15px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.349);
+}
+
+article > h1 {
+    font-family: 'idroid';
+    font-size: 2em;
+    color: #135432;
+    text-indent: 0px;
+    padding-left: 10px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #c3ebd3, white);
+    font-family: 'idroid';
+    color: #135432;
+    text-indent: 0px;
+    padding-left: 10px;
+}
+
+h3 {
+    background-color: #2fa865;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    padding: 3px 5px;
+
+}
+
+aside.extras {
+    background-color: #c5ebd6;
+    margin: -10px 15px 5px 15px;
+    padding-bottom: 5px;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.349);
+}
+
+aside.extras > p {
+    padding: 0px 10px;
+}
+
+footer {
+    background-color: #135432;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: -8px -446px -8px -8px;
+}
+
+footer > p {
+    margin: 0;
+}
+
+p > a {
+    color: #285a3f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p > a::after {
+    content: ' 🔗';
+}
+
+p > strong {
+    color: #255f46;
+}
+
+aside.video {
+    background-color: #135432;
+    padding: 15px 25px 15px 25px;
+    margin: 0px -5px;
+    text-align: center;
+}
+
+li {
+    list-style-type: '✔';
+    text-decoration: underline;
+}
+
+li.column {
+    float: left;
+    width: 51%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
